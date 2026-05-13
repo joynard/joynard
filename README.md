@@ -19,7 +19,7 @@ I am an Informatics Engineering student at **Universitas Surabaya**, specializin
 - 🔭 **Current Focus**: Researching Melanoma risk detection using Weighted Ensemble CNN and Genetic Algorithm optimization.
 - 🌱 **Learning Path**: Exploring Python (Data Science), AI-driven solutions, Applied AI, and Modern Full-Stack Development.
 - 🏛 **Leadership**: Serving as the Coordinator of IT Department for MOB FT 2026.
-- 💻 **Interests**: Data Scince & AI, Data Analytics, Software Engineering.
+- 💻 **Interests**: Data Science & AI, Data Analytics, Software Engineering.
 
 ---
 

@@ -7,26 +7,27 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-704214?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexanderlapod)
 [![Email](https://img.shields.io/badge/Email-A52A2A?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexanderfabian18@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-5D4037?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joynard)
 
 </div>
 
 ---
 
 ### 🟫 About Me
-[cite_start]Aku adalah mahasiswa Teknik Informatika di **Universitas Surabaya** yang fokus pada pengembangan solusi perangkat keras berbasis data[cite: 3, 16]. [cite_start]Sebagai seorang **Assistant Lecturer** dan **Software Engineer**, aku memiliki ketertarikan mendalam pada *clean code* dan optimasi model AI[cite: 4, 5, 26].
+I am an Informatics Engineering student at **Universitas Surabaya**, specializing in Data Science and Artificial Intelligence. As an **Assistant Lecturer** and **Software Engineer**, I am deeply passionate about building data-driven solutions, writing clean code, and optimizing AI models.
 
-- 🔭 **Current Focus**: Mengembangkan aplikasi deteksi risiko Melanoma menggunakan Ensemble CNN dan Genetic Algorithm.
-- [cite_start]🌱 **Learning**: Mendalami Rust (Axum) untuk backend berperformansi tinggi[cite: 58].
-- [cite_start]🏛 **Organization**: Koordinator IT Department untuk MOB FT 2026[cite: 30].
-- ☕ **Fun Fact**: Sangat mengapresiasi estetika minimalis dan hardware berperforma tinggi.
+- 🔭 **Current Focus**: Researching Melanoma risk detection using Weighted Ensemble CNN and Genetic Algorithm optimization.
+- 🌱 **Learning Path**: Exploring high-performance backend systems with Rust and advanced Deep Learning architectures.
+- 🏛 **Leadership**: Serving as the Chief Technology Officer (CTO) for MOB FT 2026.
+- 💻 **Interests**: High-performance computing, minimalist digital aesthetics, and competitive gaming.
 
 ---
 
 ### 🛠 Tech Stack & Tools
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,js,ts,java,cs,php,kotlin,rust,html,css&theme=light" /><br>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,angular,laravel,flask,tensorflow,sklearn,tailwind&theme=light" /><br>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,github,vscode,androidstudio,linux,figma,postman&theme=light" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,angular,laravel,flask,tensorflow,sklearn,tailwind,pytorch&theme=light" /><br>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,github,vscode,androidstudio,linux,figma,postman,docker&theme=light" />
 </p>
 
 ---
@@ -36,6 +37,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=joynard&show_icons=true&theme=calm&bg_color=fdf5e6&title_color=704214&icon_color=a52a2a&text_color=5d4037" height="170px"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&theme=calm&bg_color=fdf5e6&title_color=704214&text_color=5d4037" height="170px"/>
 </div>
+
+---
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=coffee" width="80%" />

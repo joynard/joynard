@@ -17,9 +17,9 @@
 I am an Informatics Engineering student at **Universitas Surabaya**, specializing in Data Science and Artificial Intelligence. As an **Assistant Lecturer** and **Software Engineer**, I am deeply passionate about building data-driven solutions, writing clean code, and optimizing AI models.
 
 - 🔭 **Current Focus**: Researching Melanoma risk detection using Weighted Ensemble CNN and Genetic Algorithm optimization.
-- 🌱 **Learning Path**: Exploring high-performance backend systems with Rust and advanced Deep Learning architectures.
-- 🏛 **Leadership**: Serving as the Chief Technology Officer (CTO) for MOB FT 2026.
-- 💻 **Interests**: High-performance computing, minimalist digital aesthetics, and competitive gaming.
+- 🌱 **Learning Path**: Exploring Python (Data Science), AI-driven solutions, Applied AI, and Modern Full-Stack Development.
+- 🏛 **Leadership**: Serving as the Coordinator of Information Technology Department for MOB FT 2026.
+- 💻 **Interests**: Data Scince & AI, Data Analytics, Software Engineering.
 
 ---
 

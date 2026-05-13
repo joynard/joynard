@@ -37,13 +37,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&theme=calm&bg_color=fdf5e6&title_color=704214&text_color=5d4037" height="170px"/>
 </div>
 
----
-
-### 🚀 Highlight Projects
-- [cite_start]**[Drowsiness Recognition System](https://github.com/joynard)**: Sistem Computer Vision menggunakan MediaPipe dan CNN untuk mendeteksi kantuk pengemudi[cite: 64, 65].
-- [cite_start]**[Classification of Coffee Beans](https://github.com/joynard)**: Klasifikasi varietas biji kopi dengan akurasi 99% menggunakan SVM dan ANN[cite: 52, 53].
-- [cite_start]**[Personal Engineering Platform](https://github.com/joynard)**: Megaproject menggunakan SvelteKit dan Rust Axum dengan arsitektur monorepo[cite: 56, 57].
-
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=coffee" width="80%" />
 </div>

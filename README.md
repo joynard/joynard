@@ -13,7 +13,7 @@
 
 ---
 
-### 🟫 About Me
+### About Me
 I am an Informatics Engineering student at **Universitas Surabaya**, specializing in Data Science and Artificial Intelligence. As an **Data Analyst & Software Engineer**, I am deeply passionate about building data-driven solutions, writing clean code, and optimizing AI models.
 
 - 🔭 **Current Focus**: Researching Melanoma risk detection using Weighted Ensemble CNN and Genetic Algorithm optimization.

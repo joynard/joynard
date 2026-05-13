@@ -32,14 +32,6 @@ I am an Informatics Engineering student at **Universitas Surabaya**, specializin
 
 ---
 
-### 📊 GitHub Statistics
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?joynard&show_icons=true&theme=calm&bg_color=fdf5e6&title_color=704214&icon_color=a52a2a&text_color=5d4037" height="170px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?joynard&layout=compact&theme=calm&bg_color=fdf5e6&title_color=704214&text_color=5d4037" height="170px"/>
-</div>
-
----
-
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=coffee" width="80%" />
 </div>

@@ -60,13 +60,13 @@
   <path d="M0,195 Q200,225 400,200 Q600,175 800,205 Q1000,235 1200,200"
         fill="none" stroke="rgba(245,245,220,0.12)" stroke-width="1.5"/>
 
-  <!-- Name text — serif for elegance -->
+  <!-- Name text -->
   <text x="600" y="128"
         text-anchor="middle"
-        font-family="'Georgia','Times New Roman',serif"
-        font-size="58"
+        font-family="'Trebuchet MS','Gill Sans',sans-serif"
+        font-size="52"
         font-weight="normal"
         fill="#F5F5DC"
-        letter-spacing="3"
-        opacity="0.97">Alexander F. J. Lapod</text>
+        letter-spacing="2"
+        opacity="0.97">Alexander Fabiano Joynard Lapod</text>
 </svg>

@@ -1,8 +1,8 @@
 <div align="center">
   
-<img src="https://capsule-render.vercel.app/api?type=waving&color=704214&height=250&section=header&text=Alexander%20Fabiano&fontSize=70&fontColor=F5F5DC&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=704214&height=250&section=header&text=Alexander%20F.%20J.%20Lapod&fontSize=70&fontColor=F5F5DC&animation=fadeIn" width="100%"/>
 
-# 🤎 Hi, I'm Alexander Fabiano Joynard Lapod 
+# Hi, I'm Alexander Fabiano Joynard Lapod 
 **Data Science & AI Specialist | Full-Stack Developer | Assistant Lecturer**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-704214?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexanderlapod)

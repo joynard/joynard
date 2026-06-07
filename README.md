@@ -5,8 +5,9 @@
 # Hi, I'm Alexander Fabiano Joynard Lapod 
 **Data Science & AI Specialist | Full-Stack Developer | Assistant Lecturer**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-704214?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexanderlapod)
-[![Email](https://img.shields.io/badge/Email-A52A2A?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexanderfabian18@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexanderlapod)
+[![Student ID](./assets/student-id-badge.svg)](https://m.ubaya.ac.id/index.php/akademikmhsajukanfoto_ecardimg)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexanderfabian18@gmail.com)
 
 </div>
 

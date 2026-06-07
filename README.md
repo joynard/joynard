@@ -2,6 +2,8 @@
   
 <img src="./assets/header.svg" width="100%"/>
 
+<br></br>
+
 **Data Science & AI Specialist | Full-Stack Developer | Assistant Lecturer**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexanderlapod)

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" preserveAspectRatio="xMidYMid slice" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+
+      <!-- Left anchor: deep espresso cycling through dark browns -->
+      <stop offset="0%">
+        <animate attributeName="stop-color"
+          values="#1a0a00;#3d1f00;#5C2E00;#704214;#5C2E00;#3d1f00;#1a0a00"
+          dur="15s" repeatCount="indefinite"/>
+      </stop>
+
+      <!-- Center-left: warm mahogany shifting to caramel -->
+      <stop offset="30%">
+        <animate attributeName="stop-color"
+          values="#5C2E00;#704214;#8B4513;#A0522D;#8B4513;#704214;#5C2E00"
+          dur="15s" repeatCount="indefinite"/>
+      </stop>
+
+      <!-- Center: golden warmth, peaking and fading -->
+      <stop offset="55%">
+        <animate attributeName="stop-color"
+          values="#8B4513;#A0522D;#C68642;#8B5E3C;#A0522D;#8B4513;#704214"
+          dur="15s" repeatCount="indefinite"/>
+      </stop>
+
+      <!-- Center-right: sienna to dark again -->
+      <stop offset="78%">
+        <animate attributeName="stop-color"
+          values="#704214;#8B4513;#A0522D;#5C2E00;#3d1f00;#5C2E00;#704214"
+          dur="15s" repeatCount="indefinite"/>
+      </stop>
+
+      <!-- Right anchor: dark chocolate, mirroring left -->
+      <stop offset="100%">
+        <animate attributeName="stop-color"
+          values="#3d1f00;#1a0a00;#3d1f00;#5C2E00;#704214;#5C2E00;#3d1f00"
+          dur="15s" repeatCount="indefinite"/>
+      </stop>
+
+    </linearGradient>
+
+    <!-- Soft radial vignette for depth -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.35)"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Base gradient background -->
+  <rect width="1200" height="250" fill="url(#bg)"/>
+
+  <!-- Vignette overlay for depth -->
+  <rect width="1200" height="250" fill="url(#vignette)"/>
+
+  <!-- Wave at the bottom -->
+  <path d="M0,195 Q200,225 400,200 Q600,175 800,205 Q1000,235 1200,200 L1200,250 L0,250 Z"
+        fill="rgba(0,0,0,0.18)"/>
+
+  <!-- Subtle shimmer line above wave -->
+  <path d="M0,195 Q200,225 400,200 Q600,175 800,205 Q1000,235 1200,200"
+        fill="none" stroke="rgba(245,245,220,0.12)" stroke-width="1.5"/>
+
+  <!-- Name text — serif for elegance -->
+  <text x="600" y="128"
+        text-anchor="middle"
+        font-family="'Georgia','Times New Roman',serif"
+        font-size="58"
+        font-weight="normal"
+        fill="#F5F5DC"
+        letter-spacing="3"
+        opacity="0.97">Alexander F. J. Lapod</text>
+</svg>

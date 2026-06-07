@@ -7,7 +7,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-704214?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexanderlapod)
 [![Email](https://img.shields.io/badge/Email-A52A2A?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexanderfabian18@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-5D4037?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joynard)
 
 </div>
 
@@ -16,14 +15,14 @@
 ### About Me
 I am an Informatics Engineering student at **Universitas Surabaya**, specializing in Data Science and Artificial Intelligence. As an **Data Analyst & Software Engineer**, I am deeply passionate about building data-driven solutions, writing clean code, and optimizing AI models.
 
-- 🔭 **Current Focus**: Researching Melanoma risk detection using Weighted Ensemble CNN and Genetic Algorithm optimization.
-- 🌱 **Learning Path**: Exploring Python (Data Science), AI-driven solutions, Applied AI, and Modern Full-Stack Development.
-- 🏛 **Leadership**: Serving as the Coordinator of IT Department for MOB FT 2026.
-- 💻 **Interests**: Data Science & AI, Data Analytics, Software Engineering.
+- **Current Focus**: Researching Melanoma risk detection using Weighted Ensemble CNN and Genetic Algorithm optimization.
+- **Learning Path**: Exploring Python (Data Science), AI-driven solutions, Applied AI, and Modern Full-Stack Development.
+- **Leadership**: Serving as the Coordinator of IT Department for MOB FT 2026.
+- **Interests**: Data Science & AI, Data Analytics, Software Engineering.
 
 ---
 
-### 🛠 Tech Stack & Tools
+### Tech Stack & Tools
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,js,ts,java,cs,php,kotlin,rust,html,css&theme=light" /><br>
   <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,angular,laravel,flask,tensorflow,sklearn,tailwind,pytorch&theme=light" /><br>

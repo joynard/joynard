@@ -1,62 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" preserveAspectRatio="xMidYMid slice" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 285" width="100%">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
 
-      <!-- Left anchor: deep espresso cycling through dark browns -->
+      <!-- Stop 0%: dark cycle, phase 0 -->
       <stop offset="0%">
-        <animate attributeName="stop-color"
-          values="#1a0a00;#3d1f00;#5C2E00;#704214;#5C2E00;#3d1f00;#1a0a00"
-          dur="15s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" calcMode="spline"
+          keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1"
+          keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
+          values="#1a0a00;#3d1f00;#704214;#A0522D;#C68642;#A0522D;#704214;#3d1f00;#1a0a00"
+          dur="18s" repeatCount="indefinite"/>
       </stop>
 
-      <!-- Center-left: warm mahogany shifting to caramel -->
-      <stop offset="30%">
-        <animate attributeName="stop-color"
-          values="#5C2E00;#704214;#8B4513;#A0522D;#8B4513;#704214;#5C2E00"
-          dur="15s" repeatCount="indefinite"/>
+      <!-- Stop 25%: phase shifted +2 steps -->
+      <stop offset="25%">
+        <animate attributeName="stop-color" calcMode="spline"
+          keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1"
+          keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
+          values="#704214;#A0522D;#C68642;#A0522D;#704214;#3d1f00;#1a0a00;#3d1f00;#704214"
+          dur="18s" repeatCount="indefinite"/>
       </stop>
 
-      <!-- Center: golden warmth, peaking and fading -->
-      <stop offset="55%">
-        <animate attributeName="stop-color"
-          values="#8B4513;#A0522D;#C68642;#8B5E3C;#A0522D;#8B4513;#704214"
-          dur="15s" repeatCount="indefinite"/>
+      <!-- Stop 50%: phase shifted +4 steps (opposite peak) -->
+      <stop offset="50%">
+        <animate attributeName="stop-color" calcMode="spline"
+          keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1"
+          keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
+          values="#C68642;#A0522D;#704214;#3d1f00;#1a0a00;#3d1f00;#704214;#A0522D;#C68642"
+          dur="18s" repeatCount="indefinite"/>
       </stop>
 
-      <!-- Center-right: sienna to dark again -->
-      <stop offset="78%">
-        <animate attributeName="stop-color"
-          values="#704214;#8B4513;#A0522D;#5C2E00;#3d1f00;#5C2E00;#704214"
-          dur="15s" repeatCount="indefinite"/>
+      <!-- Stop 75%: phase shifted +6 steps -->
+      <stop offset="75%">
+        <animate attributeName="stop-color" calcMode="spline"
+          keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1"
+          keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
+          values="#704214;#3d1f00;#1a0a00;#3d1f00;#704214;#A0522D;#C68642;#A0522D;#704214"
+          dur="18s" repeatCount="indefinite"/>
       </stop>
 
-      <!-- Right anchor: dark chocolate, mirroring left -->
+      <!-- Stop 100%: same phase as 0% for seamless edge -->
       <stop offset="100%">
-        <animate attributeName="stop-color"
-          values="#3d1f00;#1a0a00;#3d1f00;#5C2E00;#704214;#5C2E00;#3d1f00"
-          dur="15s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" calcMode="spline"
+          keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1"
+          keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
+          values="#1a0a00;#3d1f00;#704214;#A0522D;#C68642;#A0522D;#704214;#3d1f00;#1a0a00"
+          dur="18s" repeatCount="indefinite"/>
       </stop>
 
     </linearGradient>
 
-    <!-- Soft radial vignette for depth -->
-    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+    <radialGradient id="vignette" cx="50%" cy="45%" r="65%">
       <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
-      <stop offset="100%" stop-color="rgba(0,0,0,0.35)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.32)"/>
     </radialGradient>
   </defs>
 
-  <!-- Base gradient background -->
+  <!-- Banner background (first 250 units only) -->
   <rect width="1200" height="250" fill="url(#bg)"/>
-
-  <!-- Vignette overlay for depth -->
   <rect width="1200" height="250" fill="url(#vignette)"/>
 
-  <!-- Wave at the bottom -->
+  <!-- Wave at the bottom of the banner -->
   <path d="M0,195 Q200,225 400,200 Q600,175 800,205 Q1000,235 1200,200 L1200,250 L0,250 Z"
         fill="rgba(0,0,0,0.18)"/>
 
-  <!-- Subtle shimmer line above wave -->
+  <!-- Shimmer line above wave -->
   <path d="M0,195 Q200,225 400,200 Q600,175 800,205 Q1000,235 1200,200"
         fill="none" stroke="rgba(245,245,220,0.12)" stroke-width="1.5"/>
 
@@ -69,4 +76,6 @@
         fill="#F5F5DC"
         letter-spacing="2"
         opacity="0.97">Alexander Fabiano Joynard Lapod</text>
+
+  <!-- Transparent spacer: y=250 to y=285 (35px natural spacing below banner) -->
 </svg>

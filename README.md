@@ -2,7 +2,7 @@
   
 <img src="./assets/header.svg" width="100%"/>
 
-<p style="margin: 10px 0 0; font-weight: bold;">Data Science &amp; AI Specialist | Full-Stack Developer | Assistant Lecturer</p>
+<p style="margin: 18px 0 0; font-weight: bold;">Data Science &amp; AI Specialist | Full-Stack Developer | Assistant Lecturer</p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexanderlapod)
 [![Student ID](./assets/student-id-badge.svg)](./assets/ktm.png)

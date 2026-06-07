@@ -23,7 +23,7 @@ I am an Informatics Engineering student at **Universitas Surabaya**, specializin
 ---
 
 ### Tech Stack & Tools
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,java,cs,php,kotlin,rust,html,css&theme=light" /><br>
   <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,angular,laravel,flask,tensorflow,sklearn,tailwind,pytorch&theme=light" /><br>
   <img src="https://skillicons.dev/icons?i=postgres,mysql,github,vscode,androidstudio,linux,figma,postman,docker&theme=light" />
@@ -32,7 +32,10 @@ I am an Informatics Engineering student at **Universitas Surabaya**, specializin
 ---
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=coffee" width="80%" />
+  <p align="center">
+    <i>"Data is a precious thing and will last longer than the systems themselves."</i><br>
+    <strong>— Tim Berners-Lee</strong>
+  </p>
 </div>
 
 <p align="center">

@@ -49,7 +49,6 @@
   <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" />
   <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" />
   <img src="https://img.shields.io/badge/Apache_NetBeans-1B6AC6?style=flat-square&logo=apachenetbeans&logoColor=white" />
-  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
 </p>
 
 ---

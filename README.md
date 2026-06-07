@@ -42,35 +42,14 @@
 </p>
 
 <p align="center">
-  <strong>Ecosystems &amp; Libraries</strong><br>
-  <sub>
-    TanStack (Router, Query, Table, Form) &bull;
-    shadcn/ui &bull;
-    Drizzle ORM &bull;
-    XGBoost &bull;
-    LightGBM &bull;
-    CatBoost &bull;
-    MediaPipe &bull;
-    Optuna &bull;
-    IBM Granite LLM &bull;
-    Hono &bull;
-    Axum &bull;
-    SvelteKit
-  </sub>
-</p>
-
-<p align="center">
-  <strong>Other Tools &amp; Platforms</strong><br>
-  <sub>
-    Java Swing &bull;
-    Socket Programming &bull;
-    Cursor &bull;
-    Pascal &bull;
-    Apache NetBeans &bull;
-    Google Colab &bull;
-    Kaggle &bull;
-    Microsoft Excel
-  </sub>
+  <img src="https://img.shields.io/badge/TanStack-FF4154?style=flat-square&logo=tanstack&logoColor=white" />
+  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black" />
+  <img src="https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white" />
+  <img src="https://img.shields.io/badge/IBM_Granite_LLM-052FAD?style=flat-square&logo=ibm&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache_NetBeans-1B6AC6?style=flat-square&logo=apachenetbeans&logoColor=white" />
+  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
 </p>
 
 ---

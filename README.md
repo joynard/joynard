@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-  🎯 <strong>Current Focus</strong>: Researching Melanoma risk detection using Weighted Ensemble CNN and Genetic Algorithm optimization.<br>
-  📚 <strong>Learning Path</strong>: Exploring Python (Data Science), AI-driven solutions, Applied AI, and Modern Full-Stack Development.<br>
-  👥 <strong>Leadership</strong>: Serving as the Coordinator of IT Department for MOB FT 2026.<br>
-  💡 <strong>Interests</strong>: Data Science & AI, Data Analytics, Software Engineering.
+  <strong>Current Focus</strong>: Researching Melanoma risk detection using Weighted Ensemble CNN and Genetic Algorithm optimization.<br>
+  <strong>Learning Path</strong>: Exploring Python (Data Science), AI-driven solutions, Applied AI, and Modern Full-Stack Development.<br>
+  <strong>Leadership</strong>: Serving as the Coordinator of IT Department for MOB FT 2026.<br>
+  <strong>Interests</strong>: Data Science & AI, Data Analytics, Software Engineering.
 </p>
 
 ---

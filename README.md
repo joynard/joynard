@@ -12,17 +12,21 @@
 
 ---
 
-### About Me
-I am an Informatics Engineering student at **Universitas Surabaya**, specializing in Data Science and Artificial Intelligence. As an **Data Analyst & Software Engineer**, I am deeply passionate about building data-driven solutions, writing clean code, and optimizing AI models.
+<h3 align="center">About Me</h3>
+<p align="center">
+  I am an Informatics Engineering student at <strong>Universitas Surabaya</strong>, specializing in Data Science and Artificial Intelligence. As a <strong>Data Analyst & Software Engineer</strong>, I am deeply passionate about building data-driven solutions, writing clean code, and optimizing AI models.
+</p>
 
-- **Current Focus**: Researching Melanoma risk detection using Weighted Ensemble CNN and Genetic Algorithm optimization.
-- **Learning Path**: Exploring Python (Data Science), AI-driven solutions, Applied AI, and Modern Full-Stack Development.
-- **Leadership**: Serving as the Coordinator of IT Department for MOB FT 2026.
-- **Interests**: Data Science & AI, Data Analytics, Software Engineering.
+<p align="center">
+  🎯 <strong>Current Focus</strong>: Researching Melanoma risk detection using Weighted Ensemble CNN and Genetic Algorithm optimization.<br>
+  📚 <strong>Learning Path</strong>: Exploring Python (Data Science), AI-driven solutions, Applied AI, and Modern Full-Stack Development.<br>
+  👥 <strong>Leadership</strong>: Serving as the Coordinator of IT Department for MOB FT 2026.<br>
+  💡 <strong>Interests</strong>: Data Science & AI, Data Analytics, Software Engineering.
+</p>
 
 ---
 
-### Tech Stack & Tools
+<h3 align="center">Tech Stack & Tools</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,java,cs,php,kotlin,rust,html,css&theme=light" /><br>
   <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,angular,laravel,flask,tensorflow,sklearn,tailwind,pytorch&theme=light" /><br>

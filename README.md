@@ -29,8 +29,40 @@
 <h3 align="center">Tech Stack & Tools</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,java,cs,php,kotlin,rust,html,css&theme=light" /><br>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,angular,laravel,flask,tensorflow,sklearn,tailwind,pytorch&theme=light" /><br>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,github,vscode,androidstudio,linux,figma,postman,docker&theme=light" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,angular,laravel,flask,tensorflow,sklearn,pandas,pytorch,tailwind,vite&theme=light" /><br>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,github,vscode,androidstudio,visualstudio,arduino,linux,figma,postman,docker&theme=light" />
+</p>
+
+<p align="center">
+  <strong>Ecosystems &amp; Libraries</strong><br>
+  <sub>
+    TanStack (Router, Query, Table, Form) &bull;
+    shadcn/ui &bull;
+    Drizzle ORM &bull;
+    XGBoost &bull;
+    LightGBM &bull;
+    CatBoost &bull;
+    MediaPipe &bull;
+    Optuna &bull;
+    IBM Granite LLM &bull;
+    Hono &bull;
+    Axum &bull;
+    SvelteKit
+  </sub>
+</p>
+
+<p align="center">
+  <strong>Other Tools &amp; Platforms</strong><br>
+  <sub>
+    Java Swing &bull;
+    Socket Programming &bull;
+    Cursor &bull;
+    Pascal &bull;
+    Apache NetBeans &bull;
+    Google Colab &bull;
+    Kaggle &bull;
+    Microsoft Excel
+  </sub>
 </p>
 
 ---

@@ -2,7 +2,7 @@
   
 <img src="./assets/header.svg" width="100%"/>
 
-**Data Science & AI Enthusiast | Full-Stack Developer | Assistant Lecturer**
+**Full-Stack Developer | Assistant Lecturer | Data Science & AI Enthusiast**
 
 [![LinkedIn](./assets/linkedin-badge.svg)](https://www.linkedin.com/in/alexanderlapod)
 [![Student ID](./assets/student-id-badge.svg)](./assets/ktm.png)

@@ -14,7 +14,7 @@
 
 <h3 align="center">About Me</h3>
 <p align="center">
-  I am an Informatics Engineering student at <strong>Universitas Surabaya</strong>, specializing in Data Science and Artificial Intelligence. As a <strong>Data Analyst & Software Engineer</strong>, I am deeply passionate about building data-driven solutions, writing clean code, and optimizing AI models.
+  I am an Informatics Engineering student at <strong>Universitas Surabaya</strong>, specializing in Data Science and Artificial Intelligence. As a <strong>Data Scientist & Software Engineer</strong>, I am deeply passionate about building data-driven solutions, writing clean code, and optimizing AI models.
 </p>
 
 <p align="center">

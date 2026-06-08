@@ -42,14 +42,14 @@
 </p>
 
 <p align="center">
-  <img src="./assets/tanstack-badge.svg" />
-  <img src="./assets/drizzle-badge.svg" />
-  <img src="./assets/hono-badge.svg" />
-  <img src="./assets/netbeans-badge.svg" /><br>
-  <img src="./assets/ibm-badge.svg" />
-  <img src="./assets/googlecolab-badge.svg" />
-  <img src="./assets/kaggle-badge.svg" />
-  <img src="./assets/pandas-badge.svg" />
+  <a href="https://tanstack.com" target="_blank"><img src="./assets/tanstack-badge.svg" /></a>
+  <a href="https://orm.drizzle.team" target="_blank"><img src="./assets/drizzle-badge.svg" /></a>
+  <a href="https://hono.dev" target="_blank"><img src="./assets/hono-badge.svg" /></a>
+  <a href="https://netbeans.apache.org" target="_blank"><img src="./assets/netbeans-badge.svg" /></a><br>
+  <a href="https://www.ibm.com/granite" target="_blank"><img src="./assets/ibm-badge.svg" /></a>
+  <a href="https://colab.research.google.com" target="_blank"><img src="./assets/googlecolab-badge.svg" /></a>
+  <a href="https://www.kaggle.com" target="_blank"><img src="./assets/kaggle-badge.svg" /></a>
+  <a href="https://pandas.pydata.org" target="_blank"><img src="./assets/pandas-badge.svg" /></a>
 </p>
 
 ---

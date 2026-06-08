@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="28">
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="28">
   <defs>
     <clipPath id="r">
-      <rect width="150" height="28" rx="4"/>
+      <rect width="170" height="28" rx="4"/>
     </clipPath>
     <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#2563EB"/>
@@ -9,7 +9,7 @@
       <stop offset="100%" stop-color="#DB2777"/>
     </linearGradient>
   </defs>
-  <rect width="150" height="28" rx="4" fill="url(#g)" clip-path="url(#r)"/>
+  <rect width="170" height="28" rx="4" fill="url(#g)" clip-path="url(#r)"/>
   <rect width="30" height="28" fill="rgba(0,0,0,0.18)" clip-path="url(#r)"/>
   <g transform="translate(7, 6) scale(0.666)">
     <circle cx="12" cy="12" r="3.5" fill="white"/>
@@ -17,8 +17,8 @@
     <ellipse cx="12" cy="12" rx="9" ry="2.5" fill="none" stroke="white" stroke-width="1.5" transform="rotate(30 12 12)"/>
   </g>
   <rect x="30" y="4" width="1" height="20" fill="rgba(255,255,255,0.3)"/>
-  <text x="90" y="18.5" text-anchor="middle"
+  <text x="100" y="18.5" text-anchor="middle"
         font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
         font-size="11" font-weight="700" fill="white"
-        letter-spacing="0.5">ANTIGRAVITY AI</text>
+        letter-spacing="0.5">ANTIGRAVITY AGENT</text>
 </svg>

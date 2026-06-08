@@ -80,6 +80,7 @@
   <a href="https://colab.research.google.com" target="_blank"><img src="./assets/googlecolab-badge.svg" /></a>
   <a href="https://www.kaggle.com/alexanderlapod" target="_blank"><img src="./assets/kaggle-badge.svg" /></a>
   <a href="https://pandas.pydata.org" target="_blank"><img src="./assets/pandas-badge.svg" /></a>
+  <a href="https://github.com/joynard/joynard/blob/main/AGENTS.md" target="_blank"><img src="./assets/antigravity-badge.svg" /></a>
 </p>
 
 ---

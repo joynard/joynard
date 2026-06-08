@@ -4,9 +4,9 @@
 
 **Data Science & AI Specialist | Full-Stack Developer | Assistant Lecturer**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexanderlapod)
+[![LinkedIn](./assets/linkedin-badge.svg)](https://www.linkedin.com/in/alexanderlapod)
 [![Student ID](./assets/student-id-badge.svg)](./assets/ktm.png)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexanderfabian18@gmail.com)
+[![Email](./assets/email-badge.svg)](mailto:alexanderfabian18@gmail.com)
 
 </div>
 
@@ -42,13 +42,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TanStack-FF4154?style=for-the-badge&logo=tanstack&logoColor=white" />
-  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" />
-  <img src="https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white" />
-  <img src="https://img.shields.io/badge/IBM_Granite_LLM-052FAD?style=for-the-badge&logo=ibm&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache_NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeans&logoColor=white" />
+  <img src="./assets/tanstack-badge.svg" />
+  <img src="./assets/drizzle-badge.svg" />
+  <img src="./assets/hono-badge.svg" />
+  <img src="./assets/ibm-badge.svg" />
+  <img src="./assets/googlecolab-badge.svg" />
+  <img src="./assets/kaggle-badge.svg" />
+  <img src="./assets/netbeans-badge.svg" />
 </p>
 
 ---

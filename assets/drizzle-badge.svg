@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="28">
+  <defs>
+    <clipPath id="r">
+      <rect width="135" height="28" rx="4"/>
+    </clipPath>
+  </defs>
+  <rect width="135" height="28" rx="4" fill="#C5F74F" clip-path="url(#r)"/>
+  <rect width="30" height="28" fill="rgba(0,0,0,0.18)" clip-path="url(#r)"/>
+  <g transform="translate(7, 6) scale(0.666)"><path d="M5.353 11.823a1.036 1.036 0 0 0-.395-1.422 1.063 1.063 0 0 0-1.437.399L.138 16.702a1.035 1.035 0 0 0 .395 1.422 1.063 1.063 0 0 0 1.437-.398l3.383-5.903Zm11.216 0a1.036 1.036 0 0 0-.394-1.422 1.064 1.064 0 0 0-1.438.399l-3.382 5.902a1.036 1.036 0 0 0 .394 1.422c.506.283 1.15.104 1.438-.398l3.382-5.903Zm7.293-4.525a1.036 1.036 0 0 0-.395-1.422 1.062 1.062 0 0 0-1.437.399l-3.383 5.902a1.036 1.036 0 0 0 .395 1.422 1.063 1.063 0 0 0 1.437-.399l3.383-5.902Zm-11.219 0a1.035 1.035 0 0 0-.394-1.422 1.064 1.064 0 0 0-1.438.398l-3.382 5.903a1.036 1.036 0 0 0 .394 1.422c.506.282 1.15.104 1.438-.399l3.382-5.902Z" fill="#18181b"/></g>
+  <rect x="30" y="4" width="1" height="20" fill="rgba(255,255,255,0.3)"/>
+  <text x="82.5" y="18.5" text-anchor="middle"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+        font-size="11" font-weight="700" fill="#18181b"
+        letter-spacing="0.5">DRIZZLE ORM</text>
+</svg>

@@ -45,11 +45,11 @@
   <img src="./assets/tanstack-badge.svg" />
   <img src="./assets/drizzle-badge.svg" />
   <img src="./assets/hono-badge.svg" />
+  <img src="./assets/netbeans-badge.svg" /><br>
   <img src="./assets/ibm-badge.svg" />
   <img src="./assets/googlecolab-badge.svg" />
   <img src="./assets/kaggle-badge.svg" />
   <img src="./assets/pandas-badge.svg" />
-  <img src="./assets/netbeans-badge.svg" />
 </p>
 
 ---

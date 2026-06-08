@@ -4,9 +4,9 @@
 
 **Full-Stack Developer | Assistant Lecturer | Data Science & AI Enthusiast**
 
-[![LinkedIn](./assets/linkedin-badge.svg)](https://www.linkedin.com/in/alexanderlapod)
-[![Student ID](./assets/student-id-badge.svg)](./assets/ktm.png)
-[![Email](./assets/email-badge.svg)](mailto:alexanderfabian18@gmail.com)
+[![LinkedIn](./assets/linkedin-badge.svg?v=2)](https://www.linkedin.com/in/alexanderlapod)
+[![Student ID](./assets/student-id-badge.svg?v=2)](./assets/ktm.png)
+[![Email](./assets/email-badge.svg?v=2)](mailto:alexanderfabian18@gmail.com)
 
 </div>
 
@@ -72,15 +72,15 @@
 </p>
 
 <p align="center">
-  <a href="https://tanstack.com" target="_blank"><img src="./assets/tanstack-badge.svg" /></a>
-  <a href="https://orm.drizzle.team" target="_blank"><img src="./assets/drizzle-badge.svg" /></a>
-  <a href="https://hono.dev" target="_blank"><img src="./assets/hono-badge.svg" /></a>
-  <a href="https://netbeans.apache.org" target="_blank"><img src="./assets/netbeans-badge.svg" /></a><br>
-  <a href="https://www.ibm.com/granite" target="_blank"><img src="./assets/ibm-badge.svg" /></a>
-  <a href="https://colab.research.google.com" target="_blank"><img src="./assets/googlecolab-badge.svg" /></a>
-  <a href="https://www.kaggle.com/alexanderlapod" target="_blank"><img src="./assets/kaggle-badge.svg" /></a>
-  <a href="https://pandas.pydata.org" target="_blank"><img src="./assets/pandas-badge.svg" /></a>
-  <a href="https://github.com/joynard/joynard/blob/main/AGENTS.md" target="_blank"><img src="./assets/antigravity-badge.svg" /></a>
+  <a href="https://tanstack.com" target="_blank"><img src="./assets/tanstack-badge.svg?v=2" /></a>
+  <a href="https://orm.drizzle.team" target="_blank"><img src="./assets/drizzle-badge.svg?v=2" /></a>
+  <a href="https://hono.dev" target="_blank"><img src="./assets/hono-badge.svg?v=2" /></a>
+  <a href="https://netbeans.apache.org" target="_blank"><img src="./assets/netbeans-badge.svg?v=2" /></a><br>
+  <a href="https://www.ibm.com/granite" target="_blank"><img src="./assets/ibm-badge.svg?v=2" /></a>
+  <a href="https://colab.research.google.com" target="_blank"><img src="./assets/googlecolab-badge.svg?v=2" /></a>
+  <a href="https://www.kaggle.com/alexanderlapod" target="_blank"><img src="./assets/kaggle-badge.svg?v=2" /></a>
+  <a href="https://pandas.pydata.org" target="_blank"><img src="./assets/pandas-badge.svg?v=2" /></a>
+  <a href="https://github.com/joynard/joynard/blob/main/AGENTS.md" target="_blank"><img src="./assets/antigravity-badge.svg?v=2" /></a>
 </p>
 
 ---

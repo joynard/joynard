@@ -48,7 +48,7 @@
   <a href="https://netbeans.apache.org" target="_blank"><img src="./assets/netbeans-badge.svg" /></a><br>
   <a href="https://www.ibm.com/granite" target="_blank"><img src="./assets/ibm-badge.svg" /></a>
   <a href="https://colab.research.google.com" target="_blank"><img src="./assets/googlecolab-badge.svg" /></a>
-  <a href="https://www.kaggle.com" target="_blank"><img src="./assets/kaggle-badge.svg" /></a>
+  <a href="https://www.kaggle.com/alexanderlapod" target="_blank"><img src="./assets/kaggle-badge.svg" /></a>
   <a href="https://pandas.pydata.org" target="_blank"><img src="./assets/pandas-badge.svg" /></a>
 </p>
 

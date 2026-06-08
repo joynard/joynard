@@ -36,9 +36,39 @@
 
 <h3 align="center">Tech Stack & Tools</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,java,cs,cpp,php,kotlin,rust,html,css&theme=light" /><br>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,angular,laravel,flask,tensorflow,sklearn,pytorch,tailwind,vite&theme=light" /><br>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,github,vscode,androidstudio,visualstudio,arduino,linux,figma,postman,docker&theme=light" />
+  <a href="https://www.python.org" target="_blank"><img src="https://skillicons.dev/icons?i=python&theme=light" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://skillicons.dev/icons?i=js&theme=light" /></a>
+  <a href="https://www.typescriptlang.org" target="_blank"><img src="https://skillicons.dev/icons?i=ts&theme=light" /></a>
+  <a href="https://www.java.com" target="_blank"><img src="https://skillicons.dev/icons?i=java&theme=light" /></a>
+  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank"><img src="https://skillicons.dev/icons?i=cs&theme=light" /></a>
+  <a href="https://learn.microsoft.com/en-us/cpp/cpp/" target="_blank"><img src="https://skillicons.dev/icons?i=cpp&theme=light" /></a>
+  <a href="https://www.php.net" target="_blank"><img src="https://skillicons.dev/icons?i=php&theme=light" /></a>
+  <a href="https://kotlinlang.org" target="_blank"><img src="https://skillicons.dev/icons?i=kotlin&theme=light" /></a>
+  <a href="https://www.rust-lang.org" target="_blank"><img src="https://skillicons.dev/icons?i=rust&theme=light" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://skillicons.dev/icons?i=html&theme=light" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://skillicons.dev/icons?i=css&theme=light" /></a><br>
+  <a href="https://react.dev" target="_blank"><img src="https://skillicons.dev/icons?i=react&theme=light" /></a>
+  <a href="https://nextjs.org" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs&theme=light" /></a>
+  <a href="https://svelte.dev" target="_blank"><img src="https://skillicons.dev/icons?i=svelte&theme=light" /></a>
+  <a href="https://angular.dev" target="_blank"><img src="https://skillicons.dev/icons?i=angular&theme=light" /></a>
+  <a href="https://laravel.com" target="_blank"><img src="https://skillicons.dev/icons?i=laravel&theme=light" /></a>
+  <a href="https://flask.palletsprojects.com" target="_blank"><img src="https://skillicons.dev/icons?i=flask&theme=light" /></a>
+  <a href="https://www.tensorflow.org" target="_blank"><img src="https://skillicons.dev/icons?i=tensorflow&theme=light" /></a>
+  <a href="https://scikit-learn.org" target="_blank"><img src="https://skillicons.dev/icons?i=sklearn&theme=light" /></a>
+  <a href="https://pytorch.org" target="_blank"><img src="https://skillicons.dev/icons?i=pytorch&theme=light" /></a>
+  <a href="https://tailwindcss.com" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind&theme=light" /></a>
+  <a href="https://vite.dev" target="_blank"><img src="https://skillicons.dev/icons?i=vite&theme=light" /></a><br>
+  <a href="https://www.postgresql.org" target="_blank"><img src="https://skillicons.dev/icons?i=postgres&theme=light" /></a>
+  <a href="https://www.mysql.com" target="_blank"><img src="https://skillicons.dev/icons?i=mysql&theme=light" /></a>
+  <a href="https://github.com" target="_blank"><img src="https://skillicons.dev/icons?i=github&theme=light" /></a>
+  <a href="https://code.visualstudio.com" target="_blank"><img src="https://skillicons.dev/icons?i=vscode&theme=light" /></a>
+  <a href="https://developer.android.com/studio" target="_blank"><img src="https://skillicons.dev/icons?i=androidstudio&theme=light" /></a>
+  <a href="https://visualstudio.microsoft.com" target="_blank"><img src="https://skillicons.dev/icons?i=visualstudio&theme=light" /></a>
+  <a href="https://www.arduino.cc" target="_blank"><img src="https://skillicons.dev/icons?i=arduino&theme=light" /></a>
+  <a href="https://www.kernel.org" target="_blank"><img src="https://skillicons.dev/icons?i=linux&theme=light" /></a>
+  <a href="https://www.figma.com" target="_blank"><img src="https://skillicons.dev/icons?i=figma&theme=light" /></a>
+  <a href="https://www.postman.com" target="_blank"><img src="https://skillicons.dev/icons?i=postman&theme=light" /></a>
+  <a href="https://www.docker.com" target="_blank"><img src="https://skillicons.dev/icons?i=docker&theme=light" /></a>
 </p>
 
 <p align="center">

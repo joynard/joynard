@@ -42,13 +42,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TanStack-FF4154?style=flat-square&logo=tanstack&logoColor=white" />
-  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black" />
-  <img src="https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white" />
-  <img src="https://img.shields.io/badge/IBM_Granite_LLM-052FAD?style=flat-square&logo=ibm&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache_NetBeans-1B6AC6?style=flat-square&logo=apachenetbeans&logoColor=white" />
+  <img src="https://img.shields.io/badge/TanStack-FF4154?style=for-the-badge&logo=tanstack&logoColor=white" />
+  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" />
+  <img src="https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white" />
+  <img src="https://img.shields.io/badge/IBM_Granite_LLM-052FAD?style=for-the-badge&logo=ibm&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache_NetBeans-1B6AC6?style=for-the-badge&logo=apachenetbeans&logoColor=white" />
 </p>
 
 ---

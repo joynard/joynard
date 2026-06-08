@@ -37,7 +37,7 @@
 <h3 align="center">Tech Stack & Tools</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,java,cs,cpp,php,kotlin,rust,html,css&theme=light" /><br>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,angular,laravel,flask,tensorflow,pandas,pytorch,tailwind,vite&theme=light" /><br>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,svelte,angular,laravel,flask,tensorflow,sklearn,pytorch,tailwind,vite&theme=light" /><br>
   <img src="https://skillicons.dev/icons?i=postgres,mysql,github,vscode,androidstudio,visualstudio,arduino,linux,figma,postman,docker&theme=light" />
 </p>
 
@@ -46,9 +46,9 @@
   <img src="./assets/drizzle-badge.svg" />
   <img src="./assets/hono-badge.svg" />
   <img src="./assets/ibm-badge.svg" />
-  <img src="./assets/sklearn-badge.svg" />
   <img src="./assets/googlecolab-badge.svg" />
   <img src="./assets/kaggle-badge.svg" />
+  <img src="./assets/pandas-badge.svg" />
   <img src="./assets/netbeans-badge.svg" />
 </p>
 

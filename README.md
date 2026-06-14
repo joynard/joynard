@@ -28,7 +28,7 @@
 <h3 align="center">Current Roles</h3>
 <p align="center">
   Software Engineer at Koperasi PT. Central Proteina Prima, Tbk.<br>
-  Assistant Lecturer at IF Universitas Surabaya<br>
+  Student Assistant at IF Universitas Surabaya<br>
   Coordinator of IT Department for MOB FT 2026
 </p>
 

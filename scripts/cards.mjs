@@ -142,7 +142,7 @@ async function collect() {
   const totalBytes = [...byLanguage.values()].reduce((sum, value) => sum + value, 0) || 1;
   const languages = [...byLanguage.entries()]
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 8)
+    .slice(0, 7)
     .map(([name, bytes]) => ({ name, share: (bytes / totalBytes) * 100 }));
 
   const days = collection.contributionCalendar.weeks.flatMap((week) => week.contributionDays);
@@ -247,8 +247,10 @@ function renderLangs(model, theme) {
   const width = 440;
   const barX = 25;
   const barWidth = width - 50;
-  const total = model.languages.reduce((sum, item) => sum + item.share, 0);
-  const segments = model.languages.map((item) => ({ ...item, width: (item.share / 100) * barWidth }));
+  // Seven named languages plus a remainder keep the legend inside two columns of four.
+  const named = model.languages.slice(0, 7);
+  const total = named.reduce((sum, item) => sum + item.share, 0);
+  const segments = named.map((item) => ({ ...item, width: (item.share / 100) * barWidth }));
   if (total < 99.5) segments.push({ name: 'Other', share: 100 - total, width: ((100 - total) / 100) * barWidth });
 
   let offset = barX;
@@ -264,7 +266,7 @@ function renderLangs(model, theme) {
     .map((segment, index) => {
       // Fill down the first column first, matching the order of the bar.
       const column = index < 4 ? 0 : 1;
-      const row = index % 4;
+      const row = index < 4 ? index : index - 4;
       const x = column === 0 ? barX : 240;
       const y = 88 + row * 24;
       const share = segment.name === 'Other' ? `${Math.round(segment.share)}%` : `${Math.round(segment.share)}%`;

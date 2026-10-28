@@ -71,10 +71,12 @@ const QUERY = `
     user(login: $login) {
       login
       name
+      followers { totalCount }
       contributionsCollection {
         totalCommitContributions
         totalPullRequestContributions
         totalIssueContributions
+        totalPullRequestReviewContributions
         restrictedContributionsCount
         contributionCalendar {
           totalContributions
@@ -151,6 +153,8 @@ async function collect() {
     pullRequests: collection.totalPullRequestContributions,
     issues: collection.totalIssueContributions,
     privateContributions: collection.restrictedContributionsCount,
+    reviews: collection.totalPullRequestReviewContributions,
+    followers: user.followers.totalCount,
     stars,
     reposContributed: user.repositoriesContributedTo.totalCount,
     languages,
@@ -164,6 +168,40 @@ const count = (value) => new Intl.NumberFormat('en-US').format(value);
 const icon = (name, colors, x, y, size = 16) =>
   `<path transform="translate(${x} ${y}) scale(${size / 16})" d="${ICONS[name]}" fill="${colors.icon}"/>`;
 
+function exponentialCdf(value, median) {
+  return 1 - Math.pow(2, -value / median);
+}
+
+// Mirrors the scoring github-readme-stats publishes, so the grade stays
+// comparable with the badge this profile used to embed.
+function calculateRank(model) {
+  const weights = { commits: 2, pullRequests: 3, issues: 1, reviews: 1, stars: 4, followers: 1 };
+  const medians = { commits: 250, pullRequests: 50, issues: 25, reviews: 2, stars: 50, followers: 10 };
+  const total = 12;
+  const score =
+    (weights.commits * exponentialCdf(model.commits, medians.commits) +
+      weights.pullRequests * exponentialCdf(model.pullRequests, medians.pullRequests) +
+      weights.issues * exponentialCdf(model.issues, medians.issues) +
+      weights.reviews * exponentialCdf(model.reviews, medians.reviews) +
+      weights.stars * exponentialCdf(model.stars, medians.stars) +
+      weights.followers * exponentialCdf(model.followers, medians.followers)) /
+    total;
+  const level = Math.round((1 - score) * 100);
+  const thresholds = [1, 12.5, 25, 37.5, 50, 62.5, 75, 87.5, 100];
+  const levels = ['S', 'A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C'];
+  const index = thresholds.findIndex((threshold) => level <= threshold);
+  return { grade: levels[index === -1 ? levels.length - 1 : index], level };
+}
+
+function ringMarkup(rank, colors, cx, cy, radius) {
+  const circumference = 2 * Math.PI * radius;
+  const filled = (rank.level / 100) * circumference;
+  return [
+    `<circle cx="${cx}" cy="${cy}" r="${radius}" fill="none" stroke="${colors.muted}" stroke-opacity="0.25" stroke-width="4"/>`,
+    `<circle cx="${cx}" cy="${cy}" r="${radius}" fill="none" stroke="${colors.icon}" stroke-width="4" stroke-linecap="round" stroke-dasharray="${filled.toFixed(2)} ${circumference.toFixed(2)}" transform="rotate(-90 ${cx} ${cy})"/>`,
+    `<text x="${cx}" y="${cy + 7}" text-anchor="middle" font-family="${SANS}" font-size="20" font-weight="600" fill="${colors.text}">${escapeXml(rank.grade)}</text>`,
+  ].join('\n  ');
+}
 function title(text, colors, width) {
   return `<text x="25" y="35" font-family="${SANS}" font-size="18" font-weight="600" fill="${colors.title}">${escapeXml(text)}</text>`;
 }
@@ -183,7 +221,7 @@ function renderStats(model, theme) {
       return [
         icon(row.key, c, 25, y - 12),
         `<text x="49" y="${y}" font-family="${SANS}" font-size="14" font-weight="600" fill="${c.text}">${escapeXml(row.label)}</text>`,
-        `<text x="355" y="${y}" text-anchor="end" font-family="${SANS}" font-size="14" font-weight="700" fill="${c.text}">${count(row.value)}</text>`,
+        `<text x="300" y="${y}" text-anchor="end" font-family="${SANS}" font-size="14" font-weight="700" fill="${c.text}">${count(row.value)}</text>`,
       ].join('\n  ');
     })
     .join('\n  ');
@@ -191,15 +229,15 @@ function renderStats(model, theme) {
     ? `${count(model.privateContributions)} contributions from private repositories`
     : 'Public repositories only';
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" height="200" role="img" aria-label="GitHub statistics for ${escapeXml(model.login)}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="GitHub statistics for ${escapeXml(model.login)}, rank ${escapeXml(model.rank.grade)}">
   <title>GitHub statistics: ${escapeXml(model.login)}</title>
   ${title(`${model.name}'s GitHub Stats`, c)}
   ${body}
+  ${ringMarkup(model.rank, c, 396, 108, 30)}
   <text x="25" y="190" font-family="${SANS}" font-size="9" letter-spacing="0.3" fill="${c.muted}">${escapeXml(scope)}</text>
 </svg>
 `;
 }
-
 function renderLangs(model, theme) {
   const c = THEMES[theme];
   const width = 440;
@@ -245,9 +283,9 @@ function renderLangs(model, theme) {
 function renderStreak(model, theme) {
   const c = THEMES[theme];
   const columns = [
-    { x: 70, label: 'TOTAL CONTRIBUTIONS', value: model.contributions },
-    { x: 210, label: 'CURRENT STREAK', value: model.streak.current },
-    { x: 350, label: 'LONGEST STREAK', value: model.streak.longest },
+    { x: 66, label: 'TOTAL CONTRIBUTIONS', value: model.contributions },
+    { x: 200, label: 'CURRENT STREAK', value: model.streak.current },
+    { x: 334, label: 'LONGEST STREAK', value: model.streak.longest },
   ];
   const body = columns
     .map(
@@ -258,12 +296,12 @@ function renderStreak(model, theme) {
     )
     .join('\n  ');
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 195" width="420" height="195" role="img" aria-label="Contribution streak for ${escapeXml(model.login)}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 195" width="400" height="195" role="img" aria-label="Contribution streak for ${escapeXml(model.login)}">
   <title>Contribution streak: ${escapeXml(model.login)}</title>
   ${icon('flame', c, 200, 44, 20)}
-  <text x="210" y="34" text-anchor="middle" font-family="${SANS}" font-size="10" letter-spacing="1.6" fill="${c.title}">STREAK</text>
-  <line x1="140" y1="55" x2="140" y2="155" stroke="${c.rule}" stroke-opacity="0.35"/>
-  <line x1="280" y1="55" x2="280" y2="155" stroke="${c.rule}" stroke-opacity="0.35"/>
+  <text x="200" y="34" text-anchor="middle" font-family="${SANS}" font-size="10" letter-spacing="1.6" fill="${c.title}">STREAK</text>
+  <line x1="133" y1="55" x2="133" y2="155" stroke="${c.rule}" stroke-opacity="0.35"/>
+  <line x1="267" y1="55" x2="267" y2="155" stroke="${c.rule}" stroke-opacity="0.35"/>
   ${body}
 </svg>
 `;
@@ -280,6 +318,8 @@ if (args.snapshot) {
   console.error('METRICS_TOKEN is not set. Pass --snapshot for an offline render.');
   process.exit(1);
 }
+
+model.rank = calculateRank(model);
 
 const cards = { stats: renderStats, langs: renderLangs, streak: renderStreak };
 for (const [name, render] of Object.entries(cards)) {

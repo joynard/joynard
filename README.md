@@ -3,9 +3,9 @@
 <img src="./assets/header.svg?v=3" width="100%" alt="Alexander Fabiano Joynard Lapod"/>
 
 <p>
-  <a href="https://www.linkedin.com/in/alexanderlapod"><img src="./assets/linkedin-badge.svg?v=3" height="28" alt="LinkedIn"/></a>
-  <a href="./assets/ktm.jpg"><img src="./assets/student-id-badge.svg?v=4" height="28" alt="Student ID"/></a>
-  <a href="mailto:alexanderfabian18@gmail.com"><img src="./assets/email-badge.svg?v=3" height="28" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/alexanderlapod"><img src="./assets/linkedin-badge.svg?v=5" height="28" alt="LinkedIn"/></a>
+  <a href="./assets/ktm.jpg"><img src="./assets/student-id-badge.svg?v=5" height="28" alt="Student ID"/></a>
+  <a href="mailto:alexanderfabian18@gmail.com"><img src="./assets/email-badge.svg?v=5" height="28" alt="Email"/></a>
 </p>
 
 </div>

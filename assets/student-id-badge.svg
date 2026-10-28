@@ -1,42 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28">
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a78bfa">
-        <animate attributeName="stop-color"
-          values="#a78bfa;#60a5fa;#34d399;#f9a8d4;#fbbf24;#f87171;#818cf8;#a78bfa"
-          dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" stop-color="#60a5fa">
-        <animate attributeName="stop-color"
-          values="#60a5fa;#34d399;#f9a8d4;#fbbf24;#f87171;#818cf8;#a78bfa;#60a5fa"
-          dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#34d399">
-        <animate attributeName="stop-color"
-          values="#34d399;#f9a8d4;#fbbf24;#f87171;#818cf8;#a78bfa;#60a5fa;#34d399"
-          dur="8s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-    <clipPath id="r">
-      <rect width="140" height="28" rx="4"/>
-    </clipPath>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="28" viewBox="0 0 120 28" role="img" aria-label="Student ID">
+  <rect x="0.5" y="0.5" width="119" height="27" rx="5" fill="#14100C" stroke="#C68642" stroke-opacity="0.45"/>
 
-  <!-- Background gradient -->
-  <rect width="140" height="28" rx="4" fill="url(#grad)" clip-path="url(#r)"/>
+  <!-- Identity card glyph, drawn as geometry so no font glyph is required. -->
+  <g transform="translate(7.5 8)">
+    <rect x="0.6" y="0.6" width="14.8" height="10.8" rx="1.6" fill="none" stroke="#F5EDE0" stroke-width="1.2"/>
+    <circle cx="4.5" cy="4.3" r="1.5" fill="none" stroke="#F5EDE0" stroke-width="1.1"/>
+    <path d="M2.1 9c0-1.5 1.1-2.4 2.4-2.4s2.4.9 2.4 2.4" fill="none" stroke="#F5EDE0" stroke-width="1.1" stroke-linecap="round"/>
+    <path d="M9.2 4.1h4.4M9.2 6.1h4.4M9.2 8.1h2.9" stroke="#F5EDE0" stroke-width="1.1" stroke-linecap="round"/>
+  </g>
 
-  <!-- Icon section (dark overlay for icon bg) -->
-  <rect width="30" height="28" fill="rgba(0,0,0,0.18)" clip-path="url(#r)"/>
-
-  <!-- Card / ID icon -->
-  <text x="15" y="19" text-anchor="middle" font-size="13" fill="white">🪪</text>
-
-  <!-- Divider line -->
-  <rect x="30" y="4" width="1" height="20" fill="rgba(255,255,255,0.35)"/>
-
-  <!-- Label text -->
-  <text x="85" y="18.5" text-anchor="middle"
-        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
-        font-size="11" font-weight="600" fill="white"
-        letter-spacing="0.5">STUDENT ID</text>
+  <line x1="28" y1="7" x2="28" y2="21" stroke="#C68642" stroke-opacity="0.3"/>
+  <text x="74" y="18.2" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="10" font-weight="600" letter-spacing="1.3" fill="#F5EDE0">STUDENT ID</text>
 </svg>

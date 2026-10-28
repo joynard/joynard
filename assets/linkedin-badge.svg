@@ -1,15 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="28">
-  <defs>
-    <clipPath id="r">
-      <rect width="120" height="28" rx="4"/>
-    </clipPath>
-  </defs>
-  <rect width="120" height="28" rx="4" fill="#0A66C2" clip-path="url(#r)"/>
-  <rect width="30" height="28" fill="rgba(0,0,0,0.18)" clip-path="url(#r)"/>
-  <g transform="translate(7, 6) scale(0.666)"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" fill="white"/></g>
-  <rect x="30" y="4" width="1" height="20" fill="rgba(255,255,255,0.3)"/>
-  <text x="75" y="18.5" text-anchor="middle"
-        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
-        font-size="11" font-weight="700" fill="white"
-        letter-spacing="0.5">LINKEDIN</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="28" viewBox="0 0 118 28" role="img" aria-label="LinkedIn">
+  <rect x="0.5" y="0.5" width="117" height="27" rx="5" fill="#14100C" stroke="#C68642" stroke-opacity="0.45"/>
+  <g transform="translate(7.5 6) scale(0.65)" fill="#F5EDE0">
+    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+  </g>
+  <line x1="28" y1="7" x2="28" y2="21" stroke="#C68642" stroke-opacity="0.3"/>
+  <text x="73" y="18.2" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="10" font-weight="600" letter-spacing="1.3" fill="#F5EDE0">LINKEDIN</text>
 </svg>

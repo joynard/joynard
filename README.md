@@ -112,19 +112,19 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-stats-dark.svg?v=202610280559"/>
-    <img height="200" src="./assets/card-stats-light.svg?v=202610280559" alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to, private work included"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-stats-dark.svg?v=202610280600"/>
+    <img height="200" src="./assets/card-stats-light.svg?v=202610280600" alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to, private work included"/>
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-streak-dark.svg?v=202610280559"/>
-    <img height="195" src="./assets/card-streak-light.svg?v=202610280559" alt="Contribution streak: total contributions, current streak, and longest streak, private work included"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-streak-dark.svg?v=202610280600"/>
+    <img height="195" src="./assets/card-streak-light.svg?v=202610280600" alt="Contribution streak: total contributions, current streak, and longest streak, private work included"/>
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-langs-dark.svg?v=202610280559"/>
-    <img width="440" src="./assets/card-langs-light.svg?v=202610280559" alt="Most used languages across contributed repositories"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-langs-dark.svg?v=202610280600"/>
+    <img width="440" src="./assets/card-langs-light.svg?v=202610280600" alt="Most used languages across contributed repositories"/>
   </picture>
 </p>
 

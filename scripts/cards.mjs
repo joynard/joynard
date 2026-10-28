@@ -99,6 +99,9 @@ const QUERY = `
       repositories(first: 100, ownerAffiliations: [OWNER], isFork: false) {
         nodes { stargazerCount }
       }
+      privateRepos: repositories(privacy: PRIVATE, ownerAffiliations: [OWNER], first: 1) {
+        totalCount
+      }
     }
   }
 `;
@@ -157,6 +160,7 @@ async function collect() {
     followers: user.followers.totalCount,
     stars,
     reposContributed: user.repositoriesContributedTo.totalCount,
+    privateRepos: user.privateRepos.totalCount,
     languages,
     streak: streakFrom(days),
   };
@@ -225,8 +229,8 @@ function renderStats(model, theme) {
       ].join('\n  ');
     })
     .join('\n  ');
-  const scope = model.privateContributions
-    ? `${count(model.privateContributions)} contributions from private repositories`
+  const scope = model.includesPrivate
+    ? 'Includes activity from private repositories'
     : 'Public repositories only';
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="GitHub statistics for ${escapeXml(model.login)}, rank ${escapeXml(model.rank.grade)}">
@@ -319,6 +323,8 @@ if (args.snapshot) {
   process.exit(1);
 }
 
+model.includesPrivate =
+  model.includesPrivate ?? ((model.privateRepos ?? 0) > 0 || (model.privateContributions ?? 0) > 0);
 model.rank = calculateRank(model);
 
 const cards = { stats: renderStats, langs: renderLangs, streak: renderStreak };

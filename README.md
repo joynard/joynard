@@ -111,7 +111,14 @@
 <h3 align="center">Statistics</h3>
 
 <p align="center">
-  <img src="./assets/scorecard.svg?v=20261028" width="100%" alt="GitHub scorecard: contributions, commits, pull requests, issues, stars, repositories, and language mix"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=joynard&show_icons=true&hide_border=true&hide_rank=true&title_color=C68642&icon_color=C68642&text_color=C9B79F&bg_color=00000000&locale=en"/>
+    <img height="190" src="https://github-readme-stats.vercel.app/api?username=joynard&show_icons=true&hide_border=true&hide_rank=true&title_color=C68642&icon_color=A0522D&text_color=5B4A38&bg_color=00000000&locale=en" alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&hide_border=true&langs_count=8&card_width=420&title_color=C68642&text_color=C9B79F&bg_color=00000000&locale=en"/>
+    <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&hide_border=true&langs_count=8&card_width=420&title_color=C68642&text_color=5B4A38&bg_color=00000000&locale=en" alt="Most used languages across repositories"/>
+  </picture>
 </p>
 
 <p align="center">

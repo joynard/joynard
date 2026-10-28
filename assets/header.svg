@@ -1,81 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 285" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="100%" role="img" aria-label="Alexander Fabiano Joynard Lapod, Informatics Engineering at Universitas Surabaya">
+  <title>Alexander Fabiano Joynard Lapod</title>
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
-
-      <!-- Stop 0%: dark cycle, phase 0 -->
-      <stop offset="0%">
-        <animate attributeName="stop-color" calcMode="spline"
-          keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1"
-          keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
-          values="#1a0a00;#3d1f00;#704214;#A0522D;#C68642;#A0522D;#704214;#3d1f00;#1a0a00"
-          dur="18s" repeatCount="indefinite"/>
+    <!-- Ink field: three stops breathing between adjacent tones of the same warm black. -->
+    <linearGradient id="ink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F0C09">
+        <animate attributeName="stop-color" values="#0F0C09;#1A130E;#0F0C09" dur="20s" repeatCount="indefinite"/>
       </stop>
-
-      <!-- Stop 25%: phase shifted +2 steps -->
-      <stop offset="25%">
-        <animate attributeName="stop-color" calcMode="spline"
-          keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1"
-          keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
-          values="#704214;#A0522D;#C68642;#A0522D;#704214;#3d1f00;#1a0a00;#3d1f00;#704214"
-          dur="18s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#2A1C12">
+        <animate attributeName="stop-color" values="#2A1C12;#3A2616;#2A1C12" dur="20s" repeatCount="indefinite"/>
       </stop>
-
-      <!-- Stop 50%: phase shifted +4 steps (opposite peak) -->
-      <stop offset="50%">
-        <animate attributeName="stop-color" calcMode="spline"
-          keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1"
-          keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
-          values="#C68642;#A0522D;#704214;#3d1f00;#1a0a00;#3d1f00;#704214;#A0522D;#C68642"
-          dur="18s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#0F0C09">
+        <animate attributeName="stop-color" values="#0F0C09;#1A130E;#0F0C09" dur="20s" repeatCount="indefinite"/>
       </stop>
-
-      <!-- Stop 75%: phase shifted +6 steps -->
-      <stop offset="75%">
-        <animate attributeName="stop-color" calcMode="spline"
-          keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1"
-          keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
-          values="#704214;#3d1f00;#1a0a00;#3d1f00;#704214;#A0522D;#C68642;#A0522D;#704214"
-          dur="18s" repeatCount="indefinite"/>
-      </stop>
-
-      <!-- Stop 100%: same phase as 0% for seamless edge -->
-      <stop offset="100%">
-        <animate attributeName="stop-color" calcMode="spline"
-          keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1"
-          keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
-          values="#1a0a00;#3d1f00;#704214;#A0522D;#C68642;#A0522D;#704214;#3d1f00;#1a0a00"
-          dur="18s" repeatCount="indefinite"/>
-      </stop>
-
     </linearGradient>
 
-    <radialGradient id="vignette" cx="50%" cy="45%" r="65%">
-      <stop offset="0%" stop-color="rgba(0,0,0,0)"/>
-      <stop offset="100%" stop-color="rgba(0,0,0,0.32)"/>
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C68642" stop-opacity="0.12"/>
+      <stop offset="42%" stop-color="#C68642" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#704214" stop-opacity="0.22"/>
+    </linearGradient>
+
+    <radialGradient id="vignette" cx="50%" cy="42%" r="72%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.34"/>
     </radialGradient>
+
+    <!-- userSpaceOnUse keeps the gradient valid on a zero-height line, whose objectBoundingBox has no area. -->
+    <linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="430" y1="0" x2="770" y2="0">
+      <stop offset="0%" stop-color="#C68642" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C68642" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C68642" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
-  <!-- Banner background (first 250 units only) -->
-  <rect width="1200" height="250" fill="url(#bg)"/>
-  <rect width="1200" height="250" fill="url(#vignette)"/>
+  <rect width="1200" height="230" fill="url(#ink)"/>
+  <rect width="1200" height="230" fill="url(#sheen)"/>
+  <rect width="1200" height="230" fill="url(#vignette)"/>
 
-  <!-- Wave at the bottom of the banner -->
-  <path d="M0,195 Q200,225 400,200 Q600,175 800,205 Q1000,235 1200,200 L1200,250 L0,250 Z"
-        fill="rgba(0,0,0,0.18)"/>
+  <rect x="18.5" y="18.5" width="1163" height="193" rx="2" fill="none" stroke="#C68642" stroke-opacity="0.26"/>
 
-  <!-- Shimmer line above wave -->
-  <path d="M0,195 Q200,225 400,200 Q600,175 800,205 Q1000,235 1200,200"
-        fill="none" stroke="rgba(245,245,220,0.12)" stroke-width="1.5"/>
+  <text x="600" y="68" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="10.5" font-weight="600" letter-spacing="5.2"
+        fill="#C68642" fill-opacity="0.85">SURABAYA, INDONESIA</text>
 
-  <!-- Name text -->
-  <text x="600" y="128"
-        text-anchor="middle"
-        font-family="'Trebuchet MS','Gill Sans',sans-serif"
-        font-size="52"
-        font-weight="normal"
-        fill="#F5F5DC"
-        letter-spacing="2"
-        opacity="0.97">Alexander Fabiano Joynard Lapod</text>
+  <text x="600" y="130" text-anchor="middle"
+        font-family="'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif"
+        font-size="50" letter-spacing="1.4"
+        fill="#F5EDE0" fill-opacity="0.97">Alexander Fabiano Joynard Lapod</text>
 
-  <!-- Transparent spacer: y=250 to y=285 (35px natural spacing below banner) -->
+  <line x1="430" y1="152" x2="770" y2="152" stroke="url(#rule)" stroke-width="1" vector-effect="non-scaling-stroke"/>
+  <circle cx="600" cy="152" r="1.7" fill="#C68642" fill-opacity="0.75"/>
+
+  <text x="600" y="182" text-anchor="middle"
+        font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="12.5" letter-spacing="1.4"
+        fill="#C9B79F" fill-opacity="0.9">AI Engineer · Full-Stack Developer · Student Assistant · Data Science and Artificial Intelligence</text>
+
+  <!-- Transparent spacer: 230 to 270 keeps the banner clear of the next element. -->
 </svg>

@@ -1,0 +1,57 @@
+name: Scorecard
+
+on:
+  schedule:
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scorecard
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check METRICS_TOKEN
+        id: token
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          if [ -z "$METRICS_TOKEN" ]; then
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "METRICS_TOKEN is missing, keeping the committed scorecard."
+          else
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Render scorecard
+        if: steps.token.outputs.present == 'true'
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: node scripts/scorecard.mjs
+
+      - name: Commit
+        if: steps.token.outputs.present == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- assets/scorecard.svg; then
+            echo "Scorecard unchanged."
+            exit 0
+          fi
+          # Camo caches by URL, so the README carries a stamp that moves with each render.
+          stamp=$(date -u +%Y%m%d%H%M)
+          sed -i -E "s|assets/scorecard\.svg\?v=[0-9]+|assets/scorecard.svg?v=${stamp}|" README.md
+          git add assets/scorecard.svg README.md
+          git commit -m "chore(assets): refresh github scorecard"
+          git push

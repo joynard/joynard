@@ -32,9 +32,9 @@ This file contains editorial and stylistic rules that all agents and contributor
 
 ### Visual System
 
-- **Palette.** Ink `#0F0C09` and `#14100C`, leather `#704214`, terracotta `#A0522D`, brass `#C68642`, cream `#F5EDE0`. Structural elements stay inside this warm family; saturated brand colors belong only to third-party technology badges.
+- **Palette.** Ink `#0F0C09` and `#14100C`, leather `#704214`, terracotta `#A0522D`, brass `#C68642`, cream `#F5EDE0`. Structural elements stay inside this warm family. Saturated brand colors belong to third-party technology badges and to the contact badges, which keep their own palettes.
 - **Typography.** A serif face carries the name, letter-spaced uppercase sans carries labels. No decorative or script faces.
-- **Geometry.** Badges share height 28, corner radius 5, and a 1px brass hairline border. Icons are drawn as vector paths, never as font glyphs or emoji.
+- **Geometry.** Badges share height 28. Technology badges use the ink frame with a 1px brass hairline and drawn vector icons; contact badges keep their brand fills, and the Student ID badge keeps its glyph.
 - **Rules.** Section separators are `assets/divider.svg`, reserved for the page opening and closing. Consecutive sections are separated by headings alone.
 - **Motion.** At most one slow cycle per asset, 14 to 20 seconds, easing between adjacent tones of the same hue. Nothing flashes.
 - **Metrics.** Third-party cards must render on a transparent background and ship a `prefers-color-scheme: dark` variant through `<picture>`, so labels stay legible in both themes without duplicating the section.

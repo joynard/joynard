@@ -1,98 +1,145 @@
 <div align="center">
-  
-<img src="./assets/header.svg" width="100%"/>
 
-**Full-Stack Developer | Student Assistant | Data Science & AI Enthusiast**
+<img src="./assets/header.svg?v=3" width="100%" alt="Alexander Fabiano Joynard Lapod"/>
 
-[![LinkedIn](./assets/linkedin-badge.svg?v=2)](https://www.linkedin.com/in/alexanderlapod)
-[![Student ID](./assets/student-id-badge.svg?v=2)](./assets/ktm.png)
-[![Email](./assets/email-badge.svg?v=2)](mailto:alexanderfabian18@gmail.com)
+<p>
+  <a href="https://www.linkedin.com/in/alexanderlapod"><img src="./assets/linkedin-badge.svg?v=3" height="28" alt="LinkedIn"/></a>
+  <a href="./assets/ktm.jpg"><img src="./assets/student-id-badge.svg?v=4" height="28" alt="Student ID"/></a>
+  <a href="mailto:alexanderfabian18@gmail.com"><img src="./assets/email-badge.svg?v=3" height="28" alt="Email"/></a>
+</p>
 
 </div>
 
----
+<img src="./assets/divider.svg?v=3" width="100%" alt=""/>
 
-<h3 align="center">About Me</h3>
-<p align="center">
-  I am an Informatics Engineering student at <strong>Universitas Surabaya</strong>, specializing in Data Science and Artificial Intelligence. As a <strong>Data Scientist & Software Engineer</strong>, I am deeply passionate about building data-driven solutions and optimizing AI models.
-</p>
+<h3 align="center">Profile</h3>
 
 <p align="center">
-  <strong>Current Focus</strong>: Researching Melanoma risk detection using Weighted Ensemble CNN and Genetic Algorithm optimization.<br>
-  <strong>Learning Path</strong>: Exploring Python (Data Science), AI-driven solutions, Applied AI, and Modern Full-Stack Development.<br>
-  <strong>Interests</strong>: Data Science & AI, Data Analytics, Software Engineering.
+  Informatics Engineering student at <strong>Universitas Surabaya</strong>, specializing in Data Science and Artificial Intelligence.<br/>
+  I build data-driven systems and treat maintainability as a deliverable: measured, documented, and tested rather than merely shipped.
 </p>
 
----
-
-<h3 align="center">Current Roles</h3>
-<p align="center">
-  AI Engineer on Performance Exellence Department at PT. Salam Pacific Indonesia Lines<br>
-  Software Engineer at Koperasi PT. Central Proteina Prima, Tbk.<br>
-  Student Assistant at IF Universitas Surabaya<br>
-  Coordinator of IT Department for MOB FT 2026
-</p>
-
----
-
-<h3 align="center">Tech Stack & Tools</h3>
-<p align="center">
-  <a href="https://www.python.org" target="_blank"><img src="https://skillicons.dev/icons?i=python&theme=light" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://skillicons.dev/icons?i=js&theme=light" /></a>
-  <a href="https://www.typescriptlang.org" target="_blank"><img src="https://skillicons.dev/icons?i=ts&theme=light" /></a>
-  <a href="https://www.java.com" target="_blank"><img src="https://skillicons.dev/icons?i=java&theme=light" /></a>
-  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank"><img src="https://skillicons.dev/icons?i=cs&theme=light" /></a>
-  <a href="https://learn.microsoft.com/en-us/cpp/cpp/" target="_blank"><img src="https://skillicons.dev/icons?i=cpp&theme=light" /></a>
-  <a href="https://www.php.net" target="_blank"><img src="https://skillicons.dev/icons?i=php&theme=light" /></a>
-  <a href="https://kotlinlang.org" target="_blank"><img src="https://skillicons.dev/icons?i=kotlin&theme=light" /></a>
-  <a href="https://www.rust-lang.org" target="_blank"><img src="https://skillicons.dev/icons?i=rust&theme=light" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="https://skillicons.dev/icons?i=html&theme=light" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="https://skillicons.dev/icons?i=css&theme=light" /></a><br>
-  <a href="https://react.dev" target="_blank"><img src="https://skillicons.dev/icons?i=react&theme=light" /></a>
-  <a href="https://nextjs.org" target="_blank"><img src="https://skillicons.dev/icons?i=nextjs&theme=light" /></a>
-  <a href="https://svelte.dev" target="_blank"><img src="https://skillicons.dev/icons?i=svelte&theme=light" /></a>
-  <a href="https://angular.dev" target="_blank"><img src="https://skillicons.dev/icons?i=angular&theme=light" /></a>
-  <a href="https://laravel.com" target="_blank"><img src="https://skillicons.dev/icons?i=laravel&theme=light" /></a>
-  <a href="https://flask.palletsprojects.com" target="_blank"><img src="https://skillicons.dev/icons?i=flask&theme=light" /></a>
-  <a href="https://www.tensorflow.org" target="_blank"><img src="https://skillicons.dev/icons?i=tensorflow&theme=light" /></a>
-  <a href="https://scikit-learn.org" target="_blank"><img src="https://skillicons.dev/icons?i=sklearn&theme=light" /></a>
-  <a href="https://pytorch.org" target="_blank"><img src="https://skillicons.dev/icons?i=pytorch&theme=light" /></a>
-  <a href="https://tailwindcss.com" target="_blank"><img src="https://skillicons.dev/icons?i=tailwind&theme=light" /></a>
-  <a href="https://vite.dev" target="_blank"><img src="https://skillicons.dev/icons?i=vite&theme=light" /></a><br>
-  <a href="https://www.postgresql.org" target="_blank"><img src="https://skillicons.dev/icons?i=postgres&theme=light" /></a>
-  <a href="https://www.mysql.com" target="_blank"><img src="https://skillicons.dev/icons?i=mysql&theme=light" /></a>
-  <a href="https://github.com" target="_blank"><img src="https://skillicons.dev/icons?i=github&theme=light" /></a>
-  <a href="https://code.visualstudio.com" target="_blank"><img src="https://skillicons.dev/icons?i=vscode&theme=light" /></a>
-  <a href="https://developer.android.com/studio" target="_blank"><img src="https://skillicons.dev/icons?i=androidstudio&theme=light" /></a>
-  <a href="https://visualstudio.microsoft.com" target="_blank"><img src="https://skillicons.dev/icons?i=visualstudio&theme=light" /></a>
-  <a href="https://www.arduino.cc" target="_blank"><img src="https://skillicons.dev/icons?i=arduino&theme=light" /></a>
-  <a href="https://www.kernel.org" target="_blank"><img src="https://skillicons.dev/icons?i=linux&theme=light" /></a>
-  <a href="https://www.figma.com" target="_blank"><img src="https://skillicons.dev/icons?i=figma&theme=light" /></a>
-  <a href="https://www.postman.com" target="_blank"><img src="https://skillicons.dev/icons?i=postman&theme=light" /></a>
-  <a href="https://www.docker.com" target="_blank"><img src="https://skillicons.dev/icons?i=docker&theme=light" /></a>
-</p>
+<h3 align="center">Currently</h3>
 
 <p align="center">
-  <a href="https://tanstack.com" target="_blank"><img src="./assets/tanstack-badge.svg?v=2" /></a>
-  <a href="https://orm.drizzle.team" target="_blank"><img src="./assets/drizzle-badge.svg?v=2" /></a>
-  <a href="https://hono.dev" target="_blank"><img src="./assets/hono-badge.svg?v=2" /></a>
-  <a href="https://netbeans.apache.org" target="_blank"><img src="./assets/netbeans-badge.svg?v=2" /></a><br>
-  <a href="https://www.ibm.com/granite" target="_blank"><img src="./assets/ibm-badge.svg?v=2" /></a>
-  <a href="https://colab.research.google.com" target="_blank"><img src="./assets/googlecolab-badge.svg?v=2" /></a>
-  <a href="https://www.kaggle.com/alexanderlapod" target="_blank"><img src="./assets/kaggle-badge.svg?v=2" /></a>
-  <a href="https://pandas.pydata.org" target="_blank"><img src="./assets/pandas-badge.svg?v=2" /></a>
-  <a href="https://github.com/joynard/joynard/blob/main/AGENTS.md" target="_blank"><img src="./assets/antigravity-badge.svg?v=2" /></a>
+  <strong>AI Engineer</strong>, Performance Excellence Department at PT. Salam Pacific Indonesia Lines<br/>
+  <strong>Software Engineer</strong> at Koperasi PT. Central Proteina Prima, Tbk.<br/>
+  <strong>Student Assistant</strong> at Teknik Informatika, Universitas Surabaya<br/>
+  <strong>Coordinator of Information Technology</strong> for MOB FT 2026
 </p>
 
----
+<h3 align="center">Research</h3>
+
+<p align="center">
+  <strong>Melanoma risk detection.</strong> A weighted ensemble of convolutional neural networks, optimized with a genetic algorithm and evaluated against single-model baselines.
+</p>
+
+<h3 align="center">Selected Work</h3>
 
 <div align="center">
-  <p align="center">
-    <i>"Data is a precious thing and will last longer than the systems themselves."</i><br>
-    <strong>— Tim Berners-Lee</strong>
-  </p>
+
+| Repository | Focus | Stack |
+| :-- | :-- | :-- |
+| [sanctuary](https://github.com/joynard/sanctuary) | Digital wellbeing, measuring compulsive scrolling | Kotlin |
+| [omnitrack](https://github.com/joynard/omnitrack) | AI sidekick for projects and tasks | PHP, Laravel |
+| [coffe-beans-classification](https://github.com/joynard/coffe-beans-classification) | Coffee bean grading by computer vision | Python, TensorFlow |
+| [py-php-scholar-profiler](https://github.com/joynard/py-php-scholar-profiler) | Scholar retrieval with similarity ranking | Python, PHP |
+| [project-disprog](https://github.com/joynard/project-disprog) | Ticketing over sockets and web services | Java |
+| [hmp-uas-project](https://github.com/joynard/hmp-uas-project) | Hybrid news portal on a native PHP backend | TypeScript, PHP |
+
 </div>
 
+<h3 align="center">Toolkit</h3>
+
+<p align="center"><sub>LANGUAGES</sub></p>
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=joynard&color=704214&style=flat&label=PROFILE+VIEWS" />
+  <a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=python&theme=light" alt="Python"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js&theme=light" alt="JavaScript"/></a>
+  <a href="https://www.typescriptlang.org"><img src="https://skillicons.dev/icons?i=ts&theme=light" alt="TypeScript"/></a>
+  <a href="https://www.java.com"><img src="https://skillicons.dev/icons?i=java&theme=light" alt="Java"/></a>
+  <a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img src="https://skillicons.dev/icons?i=cs&theme=light" alt="C Sharp"/></a>
+  <a href="https://learn.microsoft.com/en-us/cpp/cpp/"><img src="https://skillicons.dev/icons?i=cpp&theme=light" alt="C Plus Plus"/></a>
+  <a href="https://www.php.net"><img src="https://skillicons.dev/icons?i=php&theme=light" alt="PHP"/></a>
+  <a href="https://kotlinlang.org"><img src="https://skillicons.dev/icons?i=kotlin&theme=light" alt="Kotlin"/></a>
+  <a href="https://www.rust-lang.org"><img src="https://skillicons.dev/icons?i=rust&theme=light" alt="Rust"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html&theme=light" alt="HTML"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css&theme=light" alt="CSS"/></a>
 </p>
+
+<p align="center"><sub>FRAMEWORKS AND RUNTIMES</sub></p>
+<p align="center">
+  <a href="https://react.dev"><img src="https://skillicons.dev/icons?i=react&theme=light" alt="React"/></a>
+  <a href="https://nextjs.org"><img src="https://skillicons.dev/icons?i=nextjs&theme=light" alt="Next.js"/></a>
+  <a href="https://svelte.dev"><img src="https://skillicons.dev/icons?i=svelte&theme=light" alt="Svelte"/></a>
+  <a href="https://angular.dev"><img src="https://skillicons.dev/icons?i=angular&theme=light" alt="Angular"/></a>
+  <a href="https://laravel.com"><img src="https://skillicons.dev/icons?i=laravel&theme=light" alt="Laravel"/></a>
+  <a href="https://flask.palletsprojects.com"><img src="https://skillicons.dev/icons?i=flask&theme=light" alt="Flask"/></a>
+  <a href="https://www.tensorflow.org"><img src="https://skillicons.dev/icons?i=tensorflow&theme=light" alt="TensorFlow"/></a>
+  <a href="https://scikit-learn.org"><img src="https://skillicons.dev/icons?i=sklearn&theme=light" alt="scikit-learn"/></a>
+  <a href="https://pytorch.org"><img src="https://skillicons.dev/icons?i=pytorch&theme=light" alt="PyTorch"/></a>
+  <a href="https://tailwindcss.com"><img src="https://skillicons.dev/icons?i=tailwind&theme=light" alt="Tailwind CSS"/></a>
+  <a href="https://vite.dev"><img src="https://skillicons.dev/icons?i=vite&theme=light" alt="Vite"/></a>
+</p>
+
+<p align="center"><sub>DATA AND INFRASTRUCTURE</sub></p>
+<p align="center">
+  <a href="https://www.postgresql.org"><img src="https://skillicons.dev/icons?i=postgres&theme=light" alt="PostgreSQL"/></a>
+  <a href="https://www.mysql.com"><img src="https://skillicons.dev/icons?i=mysql&theme=light" alt="MySQL"/></a>
+  <a href="https://www.docker.com"><img src="https://skillicons.dev/icons?i=docker&theme=light" alt="Docker"/></a>
+  <a href="https://www.kernel.org"><img src="https://skillicons.dev/icons?i=linux&theme=light" alt="Linux"/></a>
+  <a href="https://github.com"><img src="https://skillicons.dev/icons?i=github&theme=light" alt="GitHub"/></a>
+  <a href="https://code.visualstudio.com"><img src="https://skillicons.dev/icons?i=vscode&theme=light" alt="Visual Studio Code"/></a>
+  <a href="https://developer.android.com/studio"><img src="https://skillicons.dev/icons?i=androidstudio&theme=light" alt="Android Studio"/></a>
+  <a href="https://visualstudio.microsoft.com"><img src="https://skillicons.dev/icons?i=visualstudio&theme=light" alt="Visual Studio"/></a>
+  <a href="https://www.arduino.cc"><img src="https://skillicons.dev/icons?i=arduino&theme=light" alt="Arduino"/></a>
+  <a href="https://www.figma.com"><img src="https://skillicons.dev/icons?i=figma&theme=light" alt="Figma"/></a>
+  <a href="https://www.postman.com"><img src="https://skillicons.dev/icons?i=postman&theme=light" alt="Postman"/></a>
+</p>
+
+<p align="center"><sub>ADDITIONAL TOOLS</sub></p>
+<p align="center">
+  <a href="https://tanstack.com"><img src="./assets/tanstack-badge.svg?v=3" alt="TanStack"/></a>
+  <a href="https://orm.drizzle.team"><img src="./assets/drizzle-badge.svg?v=3" alt="Drizzle ORM"/></a>
+  <a href="https://hono.dev"><img src="./assets/hono-badge.svg?v=3" alt="Hono"/></a>
+  <a href="https://netbeans.apache.org"><img src="./assets/netbeans-badge.svg?v=3" alt="Apache NetBeans"/></a>
+  <a href="https://pandas.pydata.org"><img src="./assets/pandas-badge.svg?v=3" alt="pandas"/></a>
+  <a href="https://www.ibm.com/granite"><img src="./assets/ibm-badge.svg?v=3" alt="IBM Granite"/></a>
+  <a href="https://colab.research.google.com"><img src="./assets/googlecolab-badge.svg?v=3" alt="Google Colab"/></a>
+  <a href="https://www.kaggle.com/alexanderlapod"><img src="./assets/kaggle-badge.svg?v=3" alt="Kaggle"/></a>
+</p>
+
+<h3 align="center">Statistics</h3>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=joynard&show_icons=true&hide_border=true&title_color=C68642&icon_color=C68642&text_color=C9B79F&bg_color=00000000&locale=en"/>
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=joynard&show_icons=true&hide_border=true&title_color=C68642&icon_color=A0522D&text_color=5B4A38&bg_color=00000000&locale=en" alt="GitHub statistics: stars, commits, pull requests, issues, contributions, and overall rank"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=joynard&hide_border=true&background=00000000&stroke=C68642&ring=C68642&fire=C68642&currStreakNum=C9B79F&sideNums=C9B79F&currStreakLabel=C68642&sideLabels=A8917A&dates=A8917A&locale=en"/>
+    <img height="170" src="https://streak-stats.demolab.com?user=joynard&hide_border=true&background=00000000&stroke=C68642&ring=A0522D&fire=C68642&currStreakNum=5B4A38&sideNums=5B4A38&currStreakLabel=C68642&sideLabels=8A7159&dates=8A7159&locale=en" alt="Contribution streak: total contributions, current streak, and longest streak"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&hide_border=true&langs_count=8&card_width=440&title_color=C68642&text_color=C9B79F&bg_color=00000000&locale=en"/>
+    <img width="440" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&hide_border=true&langs_count=8&card_width=440&title_color=C68642&text_color=5B4A38&bg_color=00000000&locale=en" alt="Most used languages across repositories"/>
+  </picture>
+</p>
+
+<p align="center">
+  <br/>
+  <img src="./assets/divider.svg?v=3" width="100%" alt=""/>
+</p>
+
+<div align="center">
+
+<p>
+  <i>“Data is a precious thing and will last longer than the systems themselves.”</i><br/>
+  <sub>TIM BERNERS-LEE</sub>
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=joynard&color=704214&style=flat&label=PROFILE+VIEWS" alt="Profile views"/>
+
+</div>

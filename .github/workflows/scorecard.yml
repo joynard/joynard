@@ -38,7 +38,7 @@ jobs:
         if: steps.token.outputs.present == 'true'
         env:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
-        run: node scripts/scorecard.mjs
+        run: node scripts/cards.mjs
 
       - name: Swap Statistics block
         if: steps.token.outputs.present == 'true'
@@ -49,13 +49,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- assets/scorecard-light.svg assets/scorecard-dark.svg; then
+          if git diff --quiet -- assets/card-stats-light.svg assets/card-stats-dark.svg assets/card-langs-light.svg assets/card-langs-dark.svg assets/card-streak-light.svg assets/card-streak-dark.svg; then
             echo "Scorecard unchanged."
             exit 0
           fi
           # Camo caches by URL, so the README carries a stamp that moves with each render.
           stamp=$(date -u +%Y%m%d%H%M)
-          sed -i -E "s#scorecard-(light|dark)\.svg\?v=[0-9]+#scorecard-\1.svg?v=${stamp}#g" README.md
-          git add assets/scorecard-light.svg assets/scorecard-dark.svg README.md
+          sed -i -E "s#card-(stats|langs|streak)-(light|dark)\.svg\?v=[0-9]+#card-\1-\2.svg?v=${stamp}#g" README.md
+          git add assets/card-stats-light.svg assets/card-stats-dark.svg assets/card-langs-light.svg assets/card-langs-dark.svg assets/card-streak-light.svg assets/card-streak-dark.svg README.md
           git commit -m "chore(assets): refresh github scorecard"
           git push

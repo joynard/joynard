@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
- * Replaces the hosted metric cards in the Statistics section with the
- * generated scorecard block. Runs once; later runs find the block already
- * present and exit without touching the file.
+ * Replaces the hosted metric cards in the Statistics section with the three
+ * generated cards. Runs once; later runs find the block already present and
+ * exit without touching the file.
  *
  * The section is bounded by the Statistics heading and the divider paragraph
  * that closes it, so any caption added between them is replaced too.
@@ -20,8 +20,19 @@ const block = `<h3 align="center">Statistics</h3>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/scorecard-dark.svg?v=0"/>
-    <img src="./assets/scorecard-light.svg?v=0" width="100%" alt="GitHub statistics: contributions including private work, commits, pull requests, issues, stars, and repositories contributed to"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-stats-dark.svg?v=0"/>
+    <img height="200" src="./assets/card-stats-light.svg?v=0" alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to, private work included"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-streak-dark.svg?v=0"/>
+    <img height="195" src="./assets/card-streak-light.svg?v=0" alt="Contribution streak: total contributions, current streak, and longest streak, private work included"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-langs-dark.svg?v=0"/>
+    <img width="440" src="./assets/card-langs-light.svg?v=0" alt="Most used languages across contributed repositories"/>
   </picture>
 </p>
 
@@ -29,7 +40,7 @@ const block = `<h3 align="center">Statistics</h3>
 
 const readme = await readFile(FILE, 'utf8');
 
-if (readme.includes('scorecard-light.svg')) {
+if (readme.includes('card-stats-light.svg')) {
   console.log('Scorecard block already present.');
   process.exit(0);
 }
@@ -39,4 +50,4 @@ if (!SECTION.test(readme)) {
 }
 
 await writeFile(FILE, readme.replace(SECTION, block), 'utf8');
-console.log('Statistics section swapped to the generated scorecard.');
+console.log('Statistics section swapped to the generated cards.');

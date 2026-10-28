@@ -121,6 +121,8 @@
   </picture>
 </p>
 
+<p align="center"><sub>PUBLIC REPOSITORIES ONLY &middot; PRIVATE ACTIVITY NOT COUNTED</sub></p>
+
 <p align="center">
   <br/>
   <img src="./assets/divider.svg?v=3" width="100%" alt=""/>

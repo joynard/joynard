@@ -112,16 +112,21 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=joynard&show_icons=true&hide_border=true&hide_rank=true&title_color=C68642&icon_color=C68642&text_color=C9B79F&bg_color=00000000&locale=en"/>
-    <img height="190" src="https://github-readme-stats.vercel.app/api?username=joynard&show_icons=true&hide_border=true&hide_rank=true&title_color=C68642&icon_color=A0522D&text_color=5B4A38&bg_color=00000000&locale=en" alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-stats-dark.svg?v=202610280559"/>
+    <img height="200" src="./assets/card-stats-light.svg?v=202610280559" alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to, private work included"/>
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&hide_border=true&langs_count=8&card_width=420&title_color=C68642&text_color=C9B79F&bg_color=00000000&locale=en"/>
-    <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&hide_border=true&langs_count=8&card_width=420&title_color=C68642&text_color=5B4A38&bg_color=00000000&locale=en" alt="Most used languages across repositories"/>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-streak-dark.svg?v=202610280559"/>
+    <img height="195" src="./assets/card-streak-light.svg?v=202610280559" alt="Contribution streak: total contributions, current streak, and longest streak, private work included"/>
   </picture>
 </p>
 
-<p align="center"><sub>PUBLIC REPOSITORIES ONLY &middot; PRIVATE ACTIVITY NOT COUNTED</sub></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/card-langs-dark.svg?v=202610280559"/>
+    <img width="440" src="./assets/card-langs-light.svg?v=202610280559" alt="Most used languages across contributed repositories"/>
+  </picture>
+</p>
 
 <p align="center">
   <br/>

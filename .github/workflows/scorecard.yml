@@ -40,6 +40,10 @@ jobs:
           METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: node scripts/scorecard.mjs
 
+      - name: Swap Statistics block
+        if: steps.token.outputs.present == 'true'
+        run: node scripts/swap-readme.mjs
+
       - name: Commit
         if: steps.token.outputs.present == 'true'
         run: |

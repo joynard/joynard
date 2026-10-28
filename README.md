@@ -112,19 +112,12 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=joynard&show_icons=true&hide_border=true&title_color=C68642&icon_color=C68642&text_color=C9B79F&bg_color=00000000&locale=en"/>
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=joynard&show_icons=true&hide_border=true&title_color=C68642&icon_color=A0522D&text_color=5B4A38&bg_color=00000000&locale=en" alt="GitHub statistics: stars, commits, pull requests, issues, contributions, and overall rank"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=joynard&show_icons=true&hide_border=true&hide_rank=true&title_color=C68642&icon_color=C68642&text_color=C9B79F&bg_color=00000000&locale=en"/>
+    <img height="190" src="https://github-readme-stats.vercel.app/api?username=joynard&show_icons=true&hide_border=true&hide_rank=true&title_color=C68642&icon_color=A0522D&text_color=5B4A38&bg_color=00000000&locale=en" alt="GitHub statistics: stars, commits, pull requests, issues, and repositories contributed to"/>
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=joynard&hide_border=true&background=00000000&stroke=C68642&ring=C68642&fire=C68642&currStreakNum=C9B79F&sideNums=C9B79F&currStreakLabel=C68642&sideLabels=A8917A&dates=A8917A&locale=en"/>
-    <img height="170" src="https://streak-stats.demolab.com?user=joynard&hide_border=true&background=00000000&stroke=C68642&ring=A0522D&fire=C68642&currStreakNum=5B4A38&sideNums=5B4A38&currStreakLabel=C68642&sideLabels=8A7159&dates=8A7159&locale=en" alt="Contribution streak: total contributions, current streak, and longest streak"/>
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&hide_border=true&langs_count=8&card_width=440&title_color=C68642&text_color=C9B79F&bg_color=00000000&locale=en"/>
-    <img width="440" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&hide_border=true&langs_count=8&card_width=440&title_color=C68642&text_color=5B4A38&bg_color=00000000&locale=en" alt="Most used languages across repositories"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&hide_border=true&langs_count=8&card_width=420&title_color=C68642&text_color=C9B79F&bg_color=00000000&locale=en"/>
+    <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joynard&layout=compact&hide_border=true&langs_count=8&card_width=420&title_color=C68642&text_color=5B4A38&bg_color=00000000&locale=en" alt="Most used languages across repositories"/>
   </picture>
 </p>
 

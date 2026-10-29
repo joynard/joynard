@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 190" width="440" height="190" role="img" aria-label="Most used languages for joynard">
   <title>Most used languages: joynard</title>
   <text x="25" y="35" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#C68642">Most Used Languages</text>
-  <rect x="25.00" y="52" width="243.53" height="8" fill="#704214"/>
-  <rect x="270.03" y="52" width="58.44" height="8" fill="#8A5623"/>
-  <rect x="329.96" y="52" width="16.92" height="8" fill="#A0522D"/>
-  <rect x="348.39" y="52" width="14.83" height="8" fill="#C68642"/>
-  <rect x="364.72" y="52" width="9.42" height="8" fill="#D9A566"/>
-  <rect x="375.64" y="52" width="9.32" height="8" fill="#E8C79A"/>
-  <rect x="386.46" y="52" width="5.35" height="8" fill="#C9B79F"/>
-  <rect x="393.31" y="52" width="20.19" height="8" fill="#B9A78F"/>
+  <rect x="25.00" y="52" width="243.31" height="8" fill="#704214"/>
+  <rect x="269.81" y="52" width="58.38" height="8" fill="#8A5623"/>
+  <rect x="329.68" y="52" width="16.96" height="8" fill="#A0522D"/>
+  <rect x="348.14" y="52" width="14.81" height="8" fill="#C68642"/>
+  <rect x="364.46" y="52" width="9.42" height="8" fill="#D9A566"/>
+  <rect x="375.38" y="52" width="9.30" height="8" fill="#E8C79A"/>
+  <rect x="386.18" y="52" width="5.34" height="8" fill="#C9B79F"/>
+  <rect x="393.02" y="52" width="20.48" height="8" fill="#B9A78F"/>
   <circle cx="30" cy="84" r="5" fill="#704214"/>
   <text x="41" y="88" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12" fill="#C9B79F">TypeScript 63%</text>
   <circle cx="30" cy="108" r="5" fill="#8A5623"/>
